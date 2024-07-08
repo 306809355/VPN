@@ -92,6 +92,7 @@ public class EnhancedVPNServer {
             } catch (Exception e) {
                 logger.log(Level.SEVERE, "Client handler error", e);
             }
+            
         }
 
         private boolean authenticate(String username, String password) {
